@@ -5,7 +5,8 @@
  * multiplies of 3 or 5 and sum of the multiples
  *
  * Return: Always 0.
- ** /
+ **/
+
 int main(void)
 {
 	int i;

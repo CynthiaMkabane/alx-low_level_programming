@@ -1,20 +1,23 @@
 #include "main.h"
 
 /**
- * add - a function that adds two integers
- * and returns the result.
- *
- * @x: number one.
- * @y: number two.
- *
- * Return: Add of number one and number two.
+ *print_alphabet_x10 - Begin Here
+ *print a-z and A-Z using putchar
+ *Return: Value 0 (true)
  * */
-
-int add(int x, int y)
+void print_alphabet_x10(void)
 {
+	int i;
 
-		return (x + y);
+	for (i = 0; i <= 9; i++)
+	{
+		char ch = 'a';
 
+		while (ch <= 'z')
+		{
+			_putchar(ch);
+			ch++;
+		}
+	_putchar('\n');
+											}
 }
-
-

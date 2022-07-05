@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- *
  *print_alphabet_x10 - Begin Here
  *print a-z and A-Z using putchar
  *Return: Value 0 (true)
